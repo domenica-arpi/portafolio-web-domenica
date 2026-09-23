@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[MI NOMBRE] | Portafolio Web</title>
-  <meta name="description" content="Portafolio web personal de [MI NOMBRE], estudiante de Ingeniería de Software.">
+  <title>Domenica Piza | Portafolio Web</title>
+  <meta name="description" content="Portafolio web personal de Domenica Piza, estudiante de Ingeniería de Software.">
 
   <!-- Hoja de estilos (se completará en el Commit 2) -->
   <link rel="stylesheet" href="css/styles.css">
@@ -16,7 +16,7 @@
   <!-- ============================================= -->
   <header class="header">
     <nav class="navbar" aria-label="Navegación principal">
-      <a href="#inicio" class="navbar-logo">[MI NOMBRE]</a>
+      <a href="#inicio" class="navbar-logo">Domenica Piza</a>
 
       <ul class="navbar-menu" id="navbar-menu">
         <li><a href="#inicio" class="navbar-link">Inicio</a></li>
@@ -48,11 +48,12 @@
     <!-- ============================================= -->
     <section id="inicio" class="section section-hero">
       <div class="hero-content">
-        <h1>Hola, soy [MI NOMBRE]</h1>
-        <p class="hero-subtitle">[MI PERFIL PROFESIONAL] — Ej: Estudiante de Ingeniería de Software</p>
+        <h1>Hola, soy Domenica Piza</h1>
+        <p class="hero-subtitle">Estudiante de Ingeniería de Software | Desarrollo de soluciones digitales</p>
         <p class="hero-description">
-          [MI DESCRIPCIÓN PROFESIONAL BREVE]. Ejemplo: Apasionado por el desarrollo web
-          y la construcción de soluciones digitales centradas en el usuario.
+        Estudiante de Ingeniería de Software interesada en el desarrollo de aplicaciones web y móviles, el
+        aprendizaje de nuevas tecnologías y la creación de soluciones digitales funcionales y centradas en las
+        necesidades del usuario.
         </p>
 
         <div class="hero-actions">
@@ -62,8 +63,8 @@
       </div>
 
       <figure class="hero-figure">
-        <img src="assets/img/profile.jpg" alt="Fotografía de perfil de [MI NOMBRE]" class="profile-photo">
-        <figcaption>[MI NOMBRE] — [MI ÁREA DE INTERÉS]</figcaption>
+        <img src="assets/img/profile.jpg" alt="Fotografía de perfil de Domenica Piza" class="profile-photo">
+        <figcaption>Domenica Piza — Desarrollo de soluciones digitales</figcaption>
       </figure>
     </section>
 
@@ -74,19 +75,26 @@
       <h2>Sobre mí</h2>
 
       <p>
-        [MI DESCRIPCIÓN PERSONAL Y PROFESIONAL]. Ejemplo: Soy estudiante de Ingeniería
-        de Software con interés en el desarrollo frontend y la creación de interfaces
-        accesibles y bien estructuradas.
+        Soy estudiante de octavo semestre de Ingeniería de Software en la Universidad Estatal de Milagro.
+        Durante mi formación académica he desarrollado proyectos relacionados con el desarrollo de software,
+        aplicaciones web y móviles, bases de datos e inteligencia artificial.
+      </p>
+
+      <p>
+        Me interesa seguir fortaleciendo mis conocimientos en desarrollo de software y explorar nuevas
+        tecnologías que permitan crear soluciones útiles, funcionales y fáciles de utilizar. Actualmente
+        continúo desarrollando mis habilidades tanto en el área técnica como en la resolución de problemas
+        y el trabajo en proyectos académicos.
       </p>
 
       <article class="about-block">
         <h3>Formación académica</h3>
-        <p>[MI FORMACIÓN ACADÉMICA]. Ejemplo: Estudiante de Ingeniería de Software — [NOMBRE DE LA UNIVERSIDAD].</p>
+        <p>Estudiante de octavo semestre de Ingeniería de Software en la Universidad Estatal de Milagro.</p>
       </article>
 
       <aside class="about-block">
         <h3>Intereses académicos</h3>
-        <p>[MIS INTERESES ACADÉMICOS]. Ejemplo: Desarrollo web, experiencia de usuario, buenas prácticas de programación.</p>
+        <p>Desarrollo de aplicaciones web y móviles, inteligencia artificial, bases de datos, desarrollo de software y aprendizaje de nuevas tecnologías.</p>
       </aside>
     </section>
 
@@ -108,14 +116,16 @@
       <div class="skills-category">
         <h3>Backend</h3>
         <ul class="skills-list">
-          <li class="skill-badge">[TECNOLOGÍA BACKEND] — [NIVEL]</li>
+          <li class="skill-badge">Django — Intermedio</li>
+          <li class="skill-badge">Python — Intermedio</li>
         </ul>
       </div>
 
       <div class="skills-category">
         <h3>Bases de datos</h3>
         <ul class="skills-list">
-          <li class="skill-badge">[BASE DE DATOS] — [NIVEL]</li>
+          <li class="skill-badge">SQL Server — Básico</li>
+          <li class="skill-badge">SQLite3 — Básico</li>
         </ul>
       </div>
 
@@ -124,6 +134,15 @@
         <ul class="skills-list">
           <li class="skill-badge">Git — Básico</li>
           <li class="skill-badge">GitHub — Básico</li>
+        </ul>
+      </div>
+
+      <div class="skills-category">
+        <h3>Machine Learning / IA</h3>
+        <ul class="skills-list">
+          <li class="skill-badge">TensorFlow — Básico</li>
+          <li class="skill-badge">Keras — Básico</li>
+          <li class="skill-badge">OpenCV — Básico</li>
         </ul>
       </div>
     </section>
@@ -137,54 +156,63 @@
       <!-- Filtro de proyectos: se activa con JavaScript en el Commit 3 -->
       <div class="project-filters" id="project-filters">
         <button type="button" class="btn-filter is-active" data-filter="todos">Todos</button>
-        <button type="button" class="btn-filter" data-filter="html">HTML</button>
-        <button type="button" class="btn-filter" data-filter="css">CSS</button>
-        <button type="button" class="btn-filter" data-filter="javascript">JavaScript</button>
+        <button type="button" class="btn-filter" data-filter="django">Django</button>
+        <button type="button" class="btn-filter" data-filter="ml">Machine Learning</button>
+        <button type="button" class="btn-filter" data-filter="frontend">Frontend</button>
       </div>
 
       <div class="projects-grid" id="projects-grid">
 
-        <article class="card" data-technologies="html css">
-          <img src="assets/img/project-1.jpg" alt="Captura del proyecto [NOMBRE DEL PROYECTO 1]" class="card-image">
+        <article class="card" data-technologies="django ml frontend">
+          <img src="assets/img/project-1.jpg" alt="Captura del proyecto TrafiSmart" class="card-image">
           <div class="card-body">
-            <h3 class="card-title">[NOMBRE DEL PROYECTO 1]</h3>
+            <h3 class="card-title">TrafiSmart</h3>
             <p class="card-description">
-              [DESCRIPCIÓN DEL PROYECTO 1]. Problema que resuelve: [PROBLEMA O NECESIDAD].
+              Sistema completo de análisis de tráfico con detección de placas
+              y predicción usando Machine Learning.
             </p>
-            <p class="card-tech"><strong>Tecnologías:</strong> HTML, CSS</p>
+            <p class="card-tech"><strong>Tecnologías:</strong> React, TypeScript, Django, Django REST Framework, Python, SQL Server, OpenCV, Machine Learning</p>
             <div class="card-links">
-              <a href="[LINK_REPOSITORIO]" class="btn btn-secondary">Repositorio</a>
-              <a href="[LINK_DEMO]" class="btn btn-primary">Demo</a>
+              <!-- TODO: reemplaza con el link real de tu repositorio y demo cuando los subas -->
+              <a href="#" class="btn btn-secondary">Repositorio</a>
+              <a href="#" class="btn btn-primary">Demo</a>
             </div>
           </div>
         </article>
 
-        <article class="card" data-technologies="html css javascript">
-          <img src="assets/img/project-2.jpg" alt="Captura del proyecto [NOMBRE DEL PROYECTO 2]" class="card-image">
+        <article class="card" data-technologies="django ml frontend">
+          <img src="assets/img/project-2.jpg" alt="Captura del proyecto Sistema de Reconocimiento de Emociones" class="card-image">
           <div class="card-body">
-            <h3 class="card-title">[NOMBRE DEL PROYECTO 2]</h3>
+            <h3 class="card-title">Sistema de Reconocimiento de Emociones</h3>
             <p class="card-description">
-              [DESCRIPCIÓN DEL PROYECTO 2]. Problema que resuelve: [PROBLEMA O NECESIDAD].
+              Aplicación web desarrollada con Django que utiliza visión por computadora e
+              inteligencia artificial para detectar y clasificar expresiones faciales en tiempo real mediante la cámara web.
             </p>
-            <p class="card-tech"><strong>Tecnologías:</strong> HTML, CSS, JavaScript</p>
+            <p class="card-tech"><strong>Tecnologías:</strong> Python, Django, OpenCV, DeepFace, TensorFlow, Keras,
+                HTML5, CSS3, JavaScript, SQLite3</p>
             <div class="card-links">
-              <a href="[LINK_REPOSITORIO]" class="btn btn-secondary">Repositorio</a>
-              <a href="[LINK_DEMO]" class="btn btn-primary">Demo</a>
+              <!-- TODO: reemplaza con el link real de tu repositorio y demo cuando los subas -->
+              <a href="#" class="btn btn-secondary">Repositorio</a>
+              <a href="#" class="btn btn-primary">Demo</a>
             </div>
           </div>
         </article>
 
-        <article class="card" data-technologies="javascript">
-          <img src="assets/img/project-3.jpg" alt="Captura del proyecto [NOMBRE DEL PROYECTO 3]" class="card-image">
+        <article class="card" data-technologies="ml">
+          <img src="assets/img/project-3.jpg" alt="Captura del proyecto Clasificación de Tomates mediante CNN (VGG16)" class="card-image">
           <div class="card-body">
-            <h3 class="card-title">[NOMBRE DEL PROYECTO 3]</h3>
+            <h3 class="card-title">Clasificación de Tomates mediante CNN (VGG16)</h3>
             <p class="card-description">
-              [DESCRIPCIÓN DEL PROYECTO 3]. Problema que resuelve: [PROBLEMA O NECESIDAD].
+              Proyecto de clasificación de imágenes desarrollado con una Red Neuronal Convolucional
+              basada en VGG16. Utiliza Transfer Learning para clasificar imágenes de
+              tomates en diferentes categorías y evaluar el rendimiento del modelo.
             </p>
-            <p class="card-tech"><strong>Tecnologías:</strong> JavaScript</p>
+            <p class="card-tech"><strong>Tecnologías:</strong> Python, TensorFlow, Keras, VGG16, NumPy, Pandas,
+                Matplotlib, Seaborn, Scikit-learn, Google Colab</p>
             <div class="card-links">
-              <a href="[LINK_REPOSITORIO]" class="btn btn-secondary">Repositorio</a>
-              <a href="[LINK_DEMO]" class="btn btn-primary">Demo</a>
+              <!-- TODO: reemplaza con el link real de tu repositorio y demo cuando los subas -->
+              <a href="#" class="btn btn-secondary">Repositorio</a>
+              <a href="#" class="btn btn-primary">Demo</a>
             </div>
           </div>
         </article>
@@ -236,12 +264,14 @@
 
       <h3>Tipografía</h3>
       <div class="typography-sample">
-        <h1>Este es un H1</h1>
-        <h2>Este es un H2</h2>
-        <h3>Este es un H3</h3>
-        <p>Este es un párrafo de ejemplo con el estilo de texto base del portafolio.</p>
-        <p class="text-muted">Este es un texto secundario (muted).</p>
-        <a href="#">Este es un enlace de ejemplo</a>
+        <h1>Domenica Piza</h1>
+        <h2>Sobre mí</h2>
+        <h3>Desarrollo de Software</h3>
+        <p>Estudiante de Ingeniería de Software interesada
+              en el desarrollo de aplicaciones web y móviles,
+              inteligencia artificial y nuevas tecnologías.</p>
+        <p class="text-muted">Información complementaria del portafolio. (muted).</p>
+        <a href="#">Ver proyectos</a>
       </div>
 
       <h3>Espaciado</h3>
@@ -301,9 +331,9 @@
       </form>
 
       <div class="contact-info">
-        <p>Correo: [MI CORREO]</p>
-        <p>GitHub: <a href="[MI_GITHUB]">[MI USUARIO DE GITHUB]</a></p>
-        <p>LinkedIn: <a href="[MI_LINKEDIN]">[MI PERFIL DE LINKEDIN]</a></p>
+        <p>Correo: dpizaa2@unemi.edu.ec</p>
+        <!-- TODO: reemplaza con el link real a tu perfil de GitHub cuando lo tengas -->
+        <p>GitHub: <a href="#">domenica-arpi</a></p>
       </div>
     </section>
 
@@ -313,7 +343,7 @@
   <!-- FOOTER                                         -->
   <!-- ============================================= -->
   <footer class="footer">
-    <p>&copy; 2026 [MI NOMBRE]. Todos los derechos reservados.</p>
+    <p>&copy; 2026 Domenica Piza. Todos los derechos reservados.</p>
     <button type="button" id="back-to-top" class="btn-icon" aria-label="Volver al inicio">↑</button>
   </footer>
 
