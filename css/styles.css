@@ -173,6 +173,7 @@ textarea:focus-visible {
 
 .btn-icon {
   background: none;
+  color: var(--color-text);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
   padding: var(--space-sm);
@@ -224,6 +225,7 @@ textarea:focus-visible {
 
 .btn-filter {
   background-color: var(--color-surface);
+  color: var(--color-text);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
   padding: 0.4rem 1rem;
