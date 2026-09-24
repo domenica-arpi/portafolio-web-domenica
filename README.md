@@ -45,8 +45,11 @@ No requiere instalación de dependencias ni servidor backend.
 
 ## GitHub Pages
 
-URL pública: _(pendiente — se agregará al finalizar el despliegue)_
+
+URL pública: https://domenica-arpi.github.io/portafolio-web-domenica/
 
 ## Capturas
 
-_(Pendiente — se agregarán capturas de pantalla del sitio finalizado)._
+![Vista de inicio](assets/img/screenshots/inicio.png)
+![Vista de proyectos](assets/img/screenshots/proyectos.png)
+![Vista móvil](assets/img/screenshots/movil.png).
